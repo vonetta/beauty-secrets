@@ -1,5 +1,9 @@
 body{
-background-image: url('../img/background.png');
-background-color: black;
-background-image: url('../img/symbol.png');
+  background-color: $black;
+background-image:url('../img/background.png') , url('../img/symbol.png');
+font-family: helvetica, sans-serif;
+}
+
+.active{
+  background: $oldGold;
 }
