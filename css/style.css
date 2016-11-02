@@ -6,6 +6,10 @@ body {
 .active {
   background: #CFB53B; }
 
+.logo {
+  width: 350px;
+  height: 300px; }
+
 nav {
   margin-top: -140px; }
 
@@ -32,7 +36,7 @@ li {
   .about-menu li:first-child {
     margin-left: 0; }
   .about-menu li {
-    font-size: .8em;
+    font-size: .9em;
     float: none;
     background-color: transparent; }
 
