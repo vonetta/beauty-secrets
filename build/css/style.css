@@ -1,0 +1,219 @@
+body {
+  background-color: #000000;
+  background-image: url("../img/background.png"), url("../img/symbol.png");
+  font-family: helvetica, sans-serif; }
+
+.active {
+  background: #CFB53B; }
+
+.logo {
+  width: 325px;
+  height: 275px; }
+
+.collage {
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+  margin: auto; }
+
+.collage img {
+  width: 100%;
+  width: 100px;
+  height: 100px; }
+
+footer p {
+  clear: both; }
+
+footer p {
+  color: #b9b9b9;
+  text-align: center;
+  font-size: .7em; }
+
+nav {
+  margin-top: -140px; }
+
+ul {
+  list-style-type: none;
+  float: right; }
+
+li {
+  float: left;
+  font-size: 1.2em;
+  background-color: rgba(29, 29, 29, 0.18);
+  /* Change the link color to #111 (black) on hover */ }
+  li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none; }
+  li a:hover {
+    background-color: #CFB53B; }
+
+.about-menu {
+  display: block; }
+  .about-menu li:first-child {
+    margin-left: 0; }
+  .about-menu li {
+    font-size: .9em;
+    float: none;
+    background-color: transparent; }
+
+.goldText {
+  color: #CFB53B; }
+
+h1 {
+  margin-top: 8%;
+  margin-left: -5%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.5em; }
+
+.about {
+  width: 50%;
+  float: left;
+  margin-top: -5%;
+  margin-left: 25%;
+  padding-right: 2%;
+  color: #FFFEEC;
+  text-align: justify;
+  font-size: 1.2em;
+  font-weight: light;
+  line-height: 1.5; }
+
+.headshot {
+  margin-top: -5%; }
+
+aside {
+  width: 15%;
+  color: #ffffff; }
+
+h3 {
+  margin-top: 8%;
+  margin-left: -1%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5em; }
+
+.thumbnails {
+  float: left;
+  margin-left: 20%; }
+
+.thumbnails img {
+  height: 50px;
+  border: 2px solid #555;
+  padding: 1px;
+  margin: 0 10px 10px 0; }
+
+.thumbnails img:hover {
+  border: 4px solid #00ccff;
+  cursor: pointer; }
+
+.preview img {
+  border: 4px solid #444;
+  padding: 1px;
+  width: 450px;
+  float: left;
+  height: 400px; }
+
+.contact {
+  color: #ffffff;
+  margin-top: 1%;
+  line-height: 2;
+  margin-left: 30%;
+  font-size: 1.4em;
+  width: 20%; }
+
+.heading {
+  font-size: 2em;
+  font-weight: bolder; }
+
+hr {
+  margin-top: -10%;
+  margin-left: 51%;
+  width: 1px;
+  height: 200px; }
+
+form {
+  text-align: left;
+  margin-top: -16.5%;
+  margin-left: 54%;
+  width: 30%; }
+  form label {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding-bottom: 2%;
+    display: inline-block;
+    width: 3.5em; }
+  form input {
+    margin: 2%; }
+  form button {
+    margin-left: 50%; }
+
+/*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width: 1440px) {
+  h1 {
+    margin-top: 150px; }
+
+  .about {
+    margin-left: 25%;
+    margin-top: -7%; }
+
+  .contactpage, .aboutcompany {
+    padding-bottom: 10%; }
+
+  form {
+    margin-top: -15%;
+    margin-left: 60%; }
+
+  .contact {
+    margin-left: 26%;
+    margin-top: -3%; }
+
+  hr {
+    margin-top: -12%; }
+
+  h3 {
+    margin-top: 12%; } }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .logo {
+    width: 275px;
+    height: 225px; }
+
+  nav {
+    margin-top: -115px; }
+
+  h1 {
+    margin-top: 150px; }
+
+  .collage {
+    width: 1024px; }
+
+  .about {
+    margin-left: 20%;
+    margin-top: -7%; }
+
+  .headshot {
+    margin-top: -6.5%; }
+
+  form {
+    margin-top: -18%; }
+
+  .contact {
+    font-size: 1.15em; }
+
+  hr {
+    margin-top: -12%; }
+
+  .gallerytitle {
+    margin-left: 7%; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .logo {
+    width: 275px;
+    height: 225px; } }
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=style.css.map */

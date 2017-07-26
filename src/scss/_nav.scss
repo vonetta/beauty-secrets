@@ -1,0 +1,41 @@
+nav {
+  margin-top : -140px;
+}
+
+ul {
+
+  list-style-type  : none;
+    float     : right;
+}
+
+li {
+float: left;
+  font-size : 1.2em;
+  background-color : rgba(29, 29, 29,.18);
+
+
+  a {
+    display         : block;
+    padding         : 14px 16px;
+    color           : white;
+    text-decoration : none;
+  }
+  /* Change the link color to #111 (black) on hover */
+
+  a:hover {
+    background-color : $oldGold;
+  }
+}
+
+.about-menu{
+  display: block;
+
+  li:first-child{
+    margin-left:0;
+  }
+  li{
+    font-size: .9em;
+    float: none;
+    background-color: transparent;
+  }
+}

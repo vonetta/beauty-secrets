@@ -1,0 +1,37 @@
+body{
+  background-color: $black;
+background-image:url('../img/background.png') , url('../img/symbol.png');
+font-family: helvetica, sans-serif;
+}
+
+.active{
+  background: $oldGold;
+}
+
+.logo{
+width:325px;
+height:275px;
+}
+
+.collage{
+    width:100%;
+    max-width: 960px;
+text-align: center;
+margin: auto;
+
+}
+
+.collage img{
+    width: 100%;
+    width:100px;
+    height:100px;
+}
+footer p{
+    clear:both;
+}
+footer p{
+    color: rgb(185, 185, 185);
+    text-align: center;
+    font-size: .7em;
+
+}

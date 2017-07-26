@@ -1,0 +1,33 @@
+{
+  "name": "beautysecrets",
+  "version": "1.0.0",
+  "description": "Website for a traveling hair business.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vonetta/beauty-secrets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vonetta/beauty-secrets/issues"
+  },
+  "homepage": "https://github.com/vonetta/beauty-secrets#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch-sass": "^1.1.4"
+  },
+  "dependencies": {
+    "svg-icon": "^0.8.1"
+  }
+}
